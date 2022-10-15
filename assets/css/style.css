@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*-------------- nav-----------*/
+body{
+    font-family: 'Lato', sans-serif;
+    color: #777;
+}
+
+h2{
+    font-family: 'Lobster Two', cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555;
+}
+
+#logo{
+    float: left;
+    font-size: 200%;
+}
+
+#menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li{
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777;
+}
+
+.active{
+    border-bottom: 1px solid #777;
+}
+/*-------------- callout -----------*/
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    padding: 5px;
+    
+}
+/*-------------- reviews -----------*/
+/*-------------- info -----------*/
+/*-------------- class schedule -----------*/
+/*-------------- footer -----------*/
