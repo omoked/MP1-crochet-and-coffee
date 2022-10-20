@@ -13,20 +13,6 @@
    *Ensure that the the user experience is considered and implemented from the beginning of the website's life cycle.
    e.g I am starting with a responsive mobile first design that can then be scaled up to tablet and desktop screens. I am also making sure that my images have alternative text so that it can be accessible through screen readers.
 
-   To guide this process, I am using Garett's theory of the 5 planes of UX design.
-
-   Strategy: What are you aiming to achieve in the first place and for whom?
-
-   Scope: Which features, based on information from the strategy plane, do you want to include in your design?
-   What's on the table for a production release and what's not, at least for now?
-
-   Structure: How is the information structured and how is it logically grouped?
-
-   Skeleton: How will our information be represented, and how will the user navigate to the information and the features?
-
-   Surface: What will the finished product look like?
-
-
    External user's goals:
    New users
    Returning users
@@ -72,6 +58,13 @@ The purpose of this project is to create my first milestone project to demonstra
 ## __UX & Design__
 
 ### __User Stories__
+When the user interacts with my website, I want it to elicit a positive emotional reaction. To ensure that this happens, when considering the user experience I will:
+
+   *Make sure that my website works
+   *Enusre that my website is intuitive, simple and enjoyable to use
+   *Ensure that the the user experience is considered and implemented from the beginning of the website's life cycle.
+   e.g I am starting with a responsive mobile first design that can then be scaled up to tablet and desktop screens. I am also making sure that my images have alternative text so that it can be accessible through screen readers.
+   
 - As a user, I want to be able to view the café opening times, location, and contact details
 
 - As a user, I want to be able to see testimonials from café customers
