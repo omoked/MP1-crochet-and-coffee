@@ -64,7 +64,7 @@ h2{
 }
 
 #main-image {
-    background: url('assets/img/main-image.webp');
+    background: url('../img/main-image.webp');
     height: 100%;
   background-position: top center;
   background-repeat: no-repeat;
@@ -74,9 +74,11 @@ h2{
 
 #main-image-text {
     font-size: 250%;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Lobster Two', cursive;
     text-align: center;
     position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 3px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -90,3 +92,32 @@ h2{
 /*-------------- info -----------*/
 /*-------------- class schedule -----------*/
 /*-------------- footer -----------*/
+footer {
+    padding-top: 10px;
+    height: 100px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #242424;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer a {
+  color:#3c7272;
+  text-decoration: none;
+}
