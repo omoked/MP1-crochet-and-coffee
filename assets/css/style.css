@@ -89,6 +89,75 @@ h2{
     background-color: rgba(148, 45, 103, 0.7);
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
 }
+/*--------------Main page information card---------*/
+#info-section {
+    padding-top: 30px;
+}
+
+#info-section h2 {
+    font-size: 250%;
+    text-align: center;
+    padding: 20px;
+}
+
+#card {
+    display: flex;
+    
+    background-color: rgba(148, 45, 103, 0.7);
+    height: auto;
+    width: 66%;
+    margin: auto;
+    border-radius: 20px;
+
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#card-text {
+    flex: 1 1 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#card-text h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 225%;
+
+    color: #fafafa;
+}
+
+#card-text p {
+    padding-top: 10px;
+    line-height: 20px;
+    color: #fafafa;
+}
+
+#card-text a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+#card-text a:hover {
+    border-bottom: 1px solid #fafafa;
+}
+
+#card-text p:last-of-type {
+    padding-bottom: 20px;
+}
+
+hr {
+    border-bottom: 2px solid #fafafa;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+#card-image {
+    flex: 1 1 auto;
+    border-radius: 0 20px 20px 0;;
+    background: url('../img/community1.jpeg') no-repeat center center;
+}
+/*--------------Main page information card---------*/
+
 /*-------------- reviews -----------*/
 .text-uppercase{
     text-align: center;
@@ -121,6 +190,10 @@ h2{
 }
 h4, h5{
     font-family: 'Lobster Two', cursive;
+}
+
+.blockquote{
+    padding-left: 20px;
 }
 /*-------------- footer -----------*/
 footer {
